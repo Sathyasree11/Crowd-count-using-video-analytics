@@ -1,6 +1,5 @@
 # Crowd Counting Portal – Smart Real-Time People Analytics
 
-###  Milestone-3 Project | Flask + TensorFlow.js + MySQL + Chart.js
 
 A fully interactive **Crowd Counting & Zone Management Web Portal** designed for **real-time monitoring**, **heatmap visualization**, and **automated alerts** using live video or uploaded footage.
 
