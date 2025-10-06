@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>My Uploads</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Uploads</h1>
+      <a class="btn" href="/">Back</a>
+      <a class="btn outline" href="/logout">Logout</a>
+    </header>
+    {% if videos and videos|length > 0 %}
+      <ul>
+        {% for v in videos %}
+          <li>
+            <strong>{{ v.original_name }}</strong> ({{ v.size_bytes or 0 }} bytes) — {{ v.created_at }}
+            <div>
+              <a class="btn" href="/uploads/{{ v.filename }}">Open from filesystem</a>
+              <a class="btn outline" href="/video_db/{{ v.id }}">Open from database</a>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No uploads yet.</p>
+    {% endif %}
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
