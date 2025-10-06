@@ -76,7 +76,7 @@ CrowdCountingPortal/
 | **Backend** | Flask (Python) |
 | **Database** | MySQL (pymysql connector) |
 | **Data Logging** | CSV + MySQL tables |
-| **Visualization** | Chart.js (Line, Bar graphs), Heatmap rendering |
+| **Visualization** | Chart.js (Line, Bar graphs)|
 | **Hosting Ready** | Works locally or can deploy on Render / PythonAnywhere / AWS |
 
 ---
