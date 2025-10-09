@@ -1,3 +1,4 @@
+
 # Crowd Counting Portal – Smart Real-Time People Analytics
 
 
@@ -6,6 +7,7 @@ A fully interactive **Crowd Counting & Zone Management Web Portal** designed for
 ---
 
 ##  Key Features
+<img width="1317" height="858" alt="Image" src="https://github.com/user-attachments/assets/2f627c3f-64e7-4629-aaf6-563f1e2aa7cc" />
 
  **Live Crowd Detection**
 - Uses `TensorFlow.js` and `COCO-SSD` for person detection in real time.  
